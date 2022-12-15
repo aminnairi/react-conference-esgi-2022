@@ -1,0 +1,22 @@
+{
+  "include": [
+    "**/sources"
+  ],
+  "exclude": [
+    "**/node_modules",
+    "**/.npm",
+    "**/vite.config.ts"
+  ],
+  "compilerOptions": {
+    "target": "esnext",
+    "jsx": "preserve",
+    "jsxImportSource": "react",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "skipLibCheck": true
+  }
+}
