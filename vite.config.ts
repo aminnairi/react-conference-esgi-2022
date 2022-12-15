@@ -1,5 +1,6 @@
 import { defineConfig } from "vite"
 import react from "@vitejs/plugin-react"
+import eslint from "vite-plugin-eslint"
 
 const port = Number(process.env.PORT)
 const host = process.env.HOST
@@ -15,7 +16,10 @@ if (!host) {
 export default defineConfig({
     root: "sources",
     plugins: [
-        react()
+        react(),
+        eslint({
+            fix: true
+        })
     ],
     server: {
         port,
