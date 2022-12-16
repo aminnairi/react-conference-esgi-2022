@@ -24,5 +24,9 @@ export default defineConfig({
     server: {
         port,
         host
+    },
+    build: {
+        outDir: "../build",
+        emptyOutDir: true
     }
 })

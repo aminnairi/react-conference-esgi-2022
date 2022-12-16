@@ -3,3 +3,4 @@
 **/.env
 **/.node_repl_history
 **/package-lock.json
+**/build
